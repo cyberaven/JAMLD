@@ -11,9 +11,10 @@ public class GameCore : MonoBehaviour
     
 
     [SerializeField] List<GameEvent> gameEvents;
+    [SerializeField] List<GameEvent> currentGameEvents;
     [SerializeField] GameEvent currentGameEvent;
 
-    int baseResValue = 25;
+    [SerializeField] int baseResValue = 25;
     public int BaseResValue { get => baseResValue; set => baseResValue = value; }
 
     private void Awake()
@@ -59,8 +60,8 @@ public class GameCore : MonoBehaviour
     {
         List<GameEvent> notCompletedEvents = new List<GameEvent>();
         foreach (GameEvent ge in gameEvents)
-        {
-            if (ge.Completed == Completed.No)
+        {            
+            if (ge.GameEventData.Completed == Completed.No)
             {
                 notCompletedEvents.Add(ge);
             }

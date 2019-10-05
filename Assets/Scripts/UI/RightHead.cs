@@ -18,7 +18,7 @@ public class RightHead : MonoBehaviour
     }
     private void CreatedNewGameEvent(GameEvent ge)
     {
-        GameSide gs = ge.GameSide;       
+        GameSide gs = ge.GameEventData.GameSide;       
         image.GetComponent<Image>().sprite = gs.RandomFaceImage();
         text.text = gs.RandomName();
     }

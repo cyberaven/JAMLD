@@ -65,6 +65,7 @@
     <Compile Include="Assets\NextTurn.cs" />
     <Compile Include="Assets\Scripts\Core\GameCore.cs" />
     <Compile Include="Assets\Scripts\Core\GameEvent.cs" />
+    <Compile Include="Assets\Scripts\Core\GameEventData.cs" />
     <Compile Include="Assets\Scripts\Core\GameSide.cs" />
     <Compile Include="Assets\Scripts\Core\GreenStamp.cs" />
     <Compile Include="Assets\Scripts\Core\PowerRes.cs" />
@@ -75,37 +76,37 @@
     <Compile Include="Assets\Scripts\UI\GameUI.cs" />
     <Compile Include="Assets\Scripts\UI\RightHead.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/!Work/JAMLD/JAMLD/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/JAMLD/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.7f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

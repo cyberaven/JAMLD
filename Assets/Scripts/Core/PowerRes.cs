@@ -28,7 +28,7 @@ public class PowerRes : MonoBehaviour
     }
     private void PushOnStamp(Stamp s)
     {
-        if (currentGameEvent.Completed == Completed.No)
+        if (currentGameEvent.GameEventData.Completed == Completed.No)
         {
             int x = Int32.Parse(text.text);
 
@@ -36,38 +36,38 @@ public class PowerRes : MonoBehaviour
             {
                 if (fraction == Fraction.Angel)
                 {
-                    x += currentGameEvent.NegativeAngel;
+                    x += currentGameEvent.GameEventData.NegativeAngel;
                 }
                 if (fraction == Fraction.Demon)
                 {
-                    x += currentGameEvent.NegativeDemon;
+                    x += currentGameEvent.GameEventData.NegativeDemon;
                 }
                 if (fraction == Fraction.Neutral)
                 {
-                    x += currentGameEvent.NegativeNeutral;
+                    x += currentGameEvent.GameEventData.NegativeNeutral;
                 }
                 if (fraction == Fraction.Player)
                 {
-                    x += currentGameEvent.NegativePlayer;
+                    x += currentGameEvent.GameEventData.NegativePlayer;
                 }
             }
             if (s.StampColor == StampColor.Green)
             {
                 if (fraction == Fraction.Angel)
                 {
-                    x += currentGameEvent.PositiveAngel;
+                    x += currentGameEvent.GameEventData.PositiveAngel;
                 }
                 if (fraction == Fraction.Demon)
                 {
-                    x += currentGameEvent.PositiveDemon;
+                    x += currentGameEvent.GameEventData.PositiveDemon;
                 }
                 if (fraction == Fraction.Neutral)
                 {
-                    x += currentGameEvent.PositiveNeutral;
+                    x += currentGameEvent.GameEventData.PositiveNeutral;
                 }
                 if (fraction == Fraction.Player)
                 {
-                    x += currentGameEvent.PositivePlayer;
+                    x += currentGameEvent.GameEventData.PositivePlayer;
                 }
             }
             text.text = x.ToString();

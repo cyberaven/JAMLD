@@ -21,19 +21,19 @@ public class DialogView : MonoBehaviour
     private void CreatedNewGameEvent(GameEvent ge)
     {
         currentGameEvent = ge;
-        text.text = ge.StartEventText;
+        text.text = ge.GameEventData.StartEventText;
     }
     private void PushOnStamp(Stamp s)
     {
-        if (currentGameEvent.Completed == Completed.No)
+        if (currentGameEvent.GameEventData.Completed == Completed.No)
         {
             if (s.StampColor == StampColor.Green)
             {
-                text.text = currentGameEvent.PositiveEventText;
+                text.text = currentGameEvent.GameEventData.PositiveEventText;
             }
             if (s.StampColor == StampColor.Red)
             {
-                text.text = currentGameEvent.NegativeEventText;
+                text.text = currentGameEvent.GameEventData.NegativeEventText;
             }
         }
     }
