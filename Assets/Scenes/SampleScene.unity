@@ -1527,10 +1527,19 @@ MonoBehaviour:
     type: 3}
   gameEvents:
   - {fileID: 2028120411608961742, guid: 58d69a522d3843343b0cb8ad229ffc43, type: 3}
+  - {fileID: 2028120411608961742, guid: 1f9f104ed73195c4abf622fa02c98e53, type: 3}
+  - {fileID: 2028120411608961742, guid: 40e5aaabe8729c4479ec3e9b554fe6c2, type: 3}
   - {fileID: 2028120411608961742, guid: e310950650ce9814cb59c5e4c5dcea98, type: 3}
+  - {fileID: 2028120411608961742, guid: a550dc13bff20374fab8dc2d851a8c67, type: 3}
+  - {fileID: 2028120411608961742, guid: fc3925d4c75dba34ea0f35aa836ba7a7, type: 3}
   - {fileID: 2028120411608961742, guid: f218a117fadbd474bac7b95895575a96, type: 3}
+  - {fileID: 2028120411608961742, guid: 7f0eb7171ae9953498ee1df09cd78a23, type: 3}
+  - {fileID: 2028120411608961742, guid: 9fd76318600b81e4faf378d84f794fd8, type: 3}
   - {fileID: 2028120411608961742, guid: b2b40c7dceb5cab4a98664995fe28d39, type: 3}
+  - {fileID: 2028120411608961742, guid: 439b2dcd9bd05c34ab998153a5de55bc, type: 3}
+  - {fileID: 2028120411608961742, guid: d757ec04a096ad04895f5721c8978e25, type: 3}
   currentGameEvent: {fileID: 0}
+  baseResValue: 25
 --- !u!4 &1341341438
 Transform:
   m_ObjectHideFlags: 0

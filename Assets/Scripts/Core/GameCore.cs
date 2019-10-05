@@ -11,7 +11,6 @@ public class GameCore : MonoBehaviour
     
 
     [SerializeField] List<GameEvent> gameEvents;
-    [SerializeField] List<GameEvent> currentGameEvents;
     [SerializeField] GameEvent currentGameEvent;
 
     [SerializeField] int baseResValue = 25;

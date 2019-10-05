@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 959631b8bb1e3d54aa3f8d58fd0d28df, type: 3}
+  m_Name: GameEventData 1
+  m_EditorClassIdentifier: 
+  completed: 1
+  decision: 0
+  gameSide: {fileID: 2043871431817983290, guid: d7862703f672e5a48a335d663a4e6d78,
+    type: 3}
+  startEventText: "\u041C\u043E\u0439 \u0433\u043E\u0441\u043F\u043E\u0434\u0438\u043D,
+    \u0433\u0440\u044F\u0434\u0451\u0442 \u0433\u0440\u043E\u0437\u0430! \u041D\u0430\u043C
+    \u043D\u0443\u0436\u0435\u043D \u0437\u0430\u043A\u043E\u043D \u043E\u0431\u044F\u0437\u044B\u0432\u0430\u044E\u0449\u0438\u0439
+    \u0430\u043D\u0433\u0435\u043B\u043E\u0432 \u0443\u043A\u0440\u044B\u0432\u0430\u0442\u044C
+    \u043D\u0430\u0441 \u043E\u0442 \u044F\u0440\u043E\u0441\u0442\u0438 \u043F\u0440\u0438\u0440\u043E\u0434\u044B!"
+  positiveEventText: "\u0410\u043D\u0433\u0435\u043B\u044B \u043D\u0435\u043E\u0445\u043E\u0442\u043D\u043E
+    \u0441\u043E\u0433\u043B\u0430\u0441\u0438\u043B\u0438\u0441\u044C \u043D\u0430
+    \u044D\u0442\u043E\u0442 \u0443\u043A\u0430\u0437."
+  negativeEventText: "\u041C\u043E\u0436\u0435\u0442 \u0437\u0440\u044F \u0442\u044B
+    \u0442\u0430\u043A?"
+  positiveAngel: -4
+  positiveDemon: -2
+  positiveNeutral: 6
+  positivePlayer: 0
+  negativeAngel: 4
+  negativeDemon: 2
+  negativeNeutral: -6
+  negativePlayer: 0
